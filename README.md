@@ -17,8 +17,8 @@
 | -d | --delay | Tiempo (en segundos) entre que se envían las peticiones | 2 | No |
 | | --omit-first | Omite la edición del post principal de un hilo | False | No |
 
-<font size="2">1. El parámetro es obligatorio si no se usa el parámetro ```-f|--file```.
-2. El hash de sesión será solicitado por el script si no se especifica como parámetro de entrada ```-t|--token```. Recomiendo dejar que el script solicite el hash de sesion para evitar que se quede almacenado en el historico del terminal.</font>
+1. El parámetro es obligatorio si no se usa el parámetro ```-f|--file```.
+2. El hash de sesión será solicitado por el script si no se especifica como parámetro de entrada ```-t|--token```. Recomiendo dejar que el script solicite el hash de sesion para evitar que se quede almacenado en el historico del terminal.
 
 ** Recomiendo no tocar el parametro ```-ra|--requests-amount```. Debido a los mecanismos de la web de mediavida, incrementar la cantidad de peticiones solo hará que el script vaya más lento.
 
